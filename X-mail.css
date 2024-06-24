@@ -1,0 +1,522 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+.left-bar {
+}
+.home-features {
+  border-radius: 30px;
+  width: fit-content;
+  padding: 10px;
+}
+.home-features:hover {
+  background-color: #212123c9;
+}
+.class-hover:hover {
+  background-color: #2121234e;
+  cursor: pointer;
+}
+
+/* .middle-page {
+  margin-left: 25%;
+} */
+@font-face {
+  font-family: X-font;
+  src: url(ChirpExtendedHeavy.ttf);
+}
+@font-face {
+  font-family: X2-font;
+  src: url(ChirpBold.ttf);
+}
+@font-face {
+  font-family: X3-font;
+  src: url(ChirpRegular.ttf);
+}
+.twitter-font {
+  font-family: X3-font;
+  font-size: 20px;
+  font-weight: 400;
+}
+.post {
+  width: 70%;
+  padding: 13px 0;
+  font-family: X2-font;
+  font-size: 17px;
+  font-weight: 700;
+  color: RGB(255, 255, 255);
+}
+.search-btn {
+  background-color: #393b3e;
+  width: 60%;
+  padding: 5px 0;
+  font-family: X3-font;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+}
+.search-width {
+  width: 100%;
+}
+.search-btn-1-2 {
+  width: 50%;
+  background-color: #393b3e;
+}
+.search-btn-2 {
+  width: 100%;
+  background-color: #393b3e;
+  padding: 2px 0;
+  font-family: X3-font;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+}
+.search-btn-2::placeholder {
+  color: #71767b;
+}
+.search-btn-1-2:hover {
+  background-color: #393b3e;
+}
+.search-btn-1-2:focus-within {
+  border: 2px solid #1d9bf1 !important;
+}
+.search-btn-1-2:focus-within .search-icon {
+  fill: #1d9bf1 !important;
+}
+.search-btn::placeholder {
+  color: #71767b;
+}
+.search-btn-1 {
+  background-color: #393b3e;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+}
+.search-btn-1:hover {
+  background-color: #393b3e;
+}
+.search-btn-1:focus-within {
+  border: 2px solid #1d9bf1 !important;
+}
+.search-btn-1:focus-within .search-icon {
+  fill: #1d9bf1 !important;
+}
+.search-btn-1 input {
+  width: 290px;
+  outline: none;
+}
+.search-btn-1-2 input {
+  width: 450px;
+  outline: none;
+}
+.profile-img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.username span {
+  font-family: X2-font;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  color: RGB(231, 233, 234);
+}
+#sanjo {
+  font-family: X3-font;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: RGB(113, 118, 123);
+}
+.for-you {
+  color: RGB(231, 233, 234);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  /* font-family: X3-font; */
+}
+
+.header-profile img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.post-header {
+  width: 100%;
+  font-family: X2-font;
+  font-size: 17px;
+  font-weight: 700;
+  color: RGB(255, 255, 255);
+}
+.Happening-inpt {
+  outline: none;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: RGB(231, 233, 234);
+  font-family: X3-font;
+}
+.profile-pic img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.Liverpool-pfp img {
+  height: 45px;
+  width: 45px;
+  border-radius: 5px;
+}
+
+.size-tweet img {
+  width: 80%;
+}
+.size-tweet-2 img {
+  width: 100%;
+}
+.size-tweet-2 {
+  width: 100%;
+}
+.tweet-article span {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: X3-font;
+  color: #71767b;
+}
+.tweeet-username span {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
+  color: RGB(231, 233, 234);
+  font-family: X2-font;
+}
+.tweeet-username {
+  /* background-color: darkmagenta; */
+  width: 100%;
+}
+.tweeet-username span:hover {
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+.tweeet-username .second-username {
+  color: RGB(113, 118, 123);
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: X3-font;
+}
+.tweet-cont span {
+  color: RGB(231, 233, 234);
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: X3-font;
+}
+.Subscribe-cont .sub-1 {
+  color: RGB(231, 233, 234);
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 800;
+  font-family: X2-font;
+}
+.Subscribe-cont span {
+  color: RGB(231, 233, 234);
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: X3-font;
+}
+.Subscribe-btn {
+  width: 30%;
+  padding: 10px 0;
+  font-family: X2-font;
+  font-size: 17px;
+  font-weight: 700;
+  color: RGB(255, 255, 255);
+}
+.trending h2 {
+  color: RGB(231, 233, 234);
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: X-font;
+}
+.Nunez span {
+  color: RGB(231, 233, 234);
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: X2-font;
+}
+.number span {
+  color: RGB(113, 118, 123);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+.Sport-cont span {
+  color: RGB(113, 118, 123);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+.show-more span {
+  color: RGB(29, 155, 240);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: X3-font;
+}
+.follow {
+  color: black;
+  width: 30%;
+  font-family: X2-font;
+  font-size: 17px;
+  font-weight: 700;
+}
+.header-middle {
+  position: sticky !important;
+}
+.Message-bracket {
+  width: 100%;
+  position: fixed;
+  bottom: -65%;
+}
+.futa-f span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.futa-f span {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
+  color: RGB(113, 118, 123);
+}
+.futa-f {
+  width: 100%;
+  flex-wrap: wrap;
+}
+.for-you a {
+  color: white;
+  text-decoration: none;
+}
+.expand-1 {
+  display: none;
+}
+.twitter-font a {
+  text-decoration: none;
+  color: white;
+}
+.search-btn-1-2 input {
+  /* width: 400px; */
+  padding-right: 30px;
+}
+.trending-2 {
+  top: 0;
+  position: sticky !important;
+}
+.for-you h5 {
+  color: RGB(231, 233, 234);
+  font-family: X2-font;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.settings-1 {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.setting-svg {
+  border-radius: 50%;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+}
+.for-setting-svg {
+  border-radius: 50%;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5em;
+  width: 2.5em;
+}
+.tweet-icon {
+  border-radius: 50%;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4em;
+  width: 4em;
+  background-color: #1d9bf1;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+}
+.tweet-icon-12 {
+  border-radius: 50%;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4em;
+  width: 4em;
+  background-color: #1d9bf1;
+}
+.settings-4 {
+  position: absolute;
+  top: 40px;
+  width: 85px;
+  left: -30px;
+  font-size: 10px;
+  font-weight: 700;
+  font-family: X3-font;
+  background-color: #506ea5b5;
+  padding: 0 3px 0 3px;
+  visibility: hidden;
+  color: white;
+}
+.settings-1:hover .settings-4 {
+  visibility: visible !important;
+  cursor: pointer;
+}
+
+.settings-1:hover .for-setting-svg {
+  background-color: #506ea5b5;
+}
+.settings-1:hover .setting-svg {
+  background-color: #506ea5b5;
+}
+.settings-2 {
+  position: absolute;
+  top: 40px;
+  left: -10px;
+  font-size: 10px;
+  font-weight: 700;
+  font-family: X3-font;
+  background-color: #506ea5b5;
+  padding: 0 3px 0 3px;
+  visibility: hidden;
+  color: white !important;
+}
+
+.settings-1:hover .settings-2 {
+  visibility: visible !important;
+  cursor: pointer;
+}
+.settings-1:hover .settings-3 {
+  visibility: visible !important;
+  cursor: pointer;
+}
+
+.settings-3 {
+  position: absolute;
+  top: 30px;
+  left: 5px;
+  font-size: 10px;
+  font-weight: 700;
+  font-family: X3-font;
+  background-color: #506ea5b5;
+  padding: 0 3px 0 3px;
+  visibility: hidden;
+  color: white !important;
+}
+.reply {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.reply-svg {
+  border-radius: 50%;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2em;
+  width: 2em;
+}
+.reply:hover .reply-svg {
+  background-color: #2d53b3a1;
+}
+.reply:hover svg {
+  fill: #1d9bf1;
+}
+.reply:hover .reply-cont {
+  color: #1d9bf1;
+}
+
+.reply:hover .settings-3 {
+  visibility: visible !important;
+  cursor: pointer;
+}
+.repost {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.repost-svg {
+  border-radius: 50%;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2em;
+  width: 2em;
+}
+.repost:hover .repost-svg {
+  background-color: rgba(3, 79, 3, 0.37);
+}
+.repost:hover svg {
+  fill: green;
+}
+.repost:hover .r-cont {
+  color: green;
+}
+
+.repost:hover .settings-3 {
+  visibility: visible !important;
+  cursor: pointer;
+}
+
+.like {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.like-svg {
+  border-radius: 50%;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2em;
+  width: 2em;
+}
+.like:hover .like-svg {
+  background-color: rgb(128, 0, 0.134);
+}
+
+.like:hover svg {
+  fill: red;
+}
+.like:hover .k-cont {
+  color: red;
+}
+
+.like:hover .settings-3 {
+  visibility: visible !important;
+  cursor: pointer;
+}
